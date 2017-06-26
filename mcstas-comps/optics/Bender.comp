@@ -58,12 +58,12 @@
 * Win: [rad]    Angle of the deflection of the whole bender
 * k: [1]        Number of channels inside the bender
 * d: [m]        Thickness of one blade separating the channels
-* R0a: [1]      Low-angle reflectivity at the <b>outer</b> side of the bender
+* R0a: [1]      Low-angle reflectivity at the <b>outer</b> (concave) side of the bender
 * Qca: [AA-1]   Critical scattering vector
 * alphaa: [AA]  Slope of reflectivity
 * ma: [1]       m-value of material
 * Wa: [AA-1]    Width of supermirror cut-off
-* R0i: [1]      Low-angle reflectivity at the <b>inner</b> side of the bender
+* R0i: [1]      Low-angle reflectivity at the <b>inner</b> (convex) side of the bender
 * Qci: [AA-1]   Critical scattering vector
 * alphai: [AA]  Slope of reflectivity
 * mi: [1]       m-value of material
