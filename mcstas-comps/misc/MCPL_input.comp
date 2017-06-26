@@ -31,7 +31,7 @@
 * polarisationuse: [ ]  If !=0 read polarisation vectors from file.
 * Emin: [meV]           Lower energy bound. Particles found in the MCPL-file below the limit are skipped.
 * Emax: [meV]           Upper energy bound. Particles found in the MCPL-file above the limit are skipped.
-* repeat_count: [1]     Repeat contents of the MCPL file this number of times. NB: When running MPI, repeating is implicit and is taken into account by integer division. Should be combined sith the _smear options!
+* repeat_count: [1]     Repeat contents of the MCPL file this number of times. NB: When running MPI, repeating is implicit and is taken into account by integer division. Should be combined with the _smear options!
 * E_smear: [1]          When repeating events, make a Gaussian MC choice within E_smear*E around particle energy E
 * pos_smear: [m]        When repeating events, make a flat MC choice of position within pos_smear around particle starting position
 * dir_smear: [deg]      When repeating events, make a Gaussian MC choice of direction within dir_smear around particle direction
